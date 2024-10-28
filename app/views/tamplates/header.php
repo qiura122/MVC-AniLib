@@ -6,10 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?= $data['jdl']; ?></title>
     <link href="<?= BASEURL; ?>/css/bootstrap.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: skyblue;
+        }
+    </style>
 </head>
 
 <body>
-
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container">
             <a class="navbar-brand" href="<?= BASEURL; ?>">AniLib</a>
